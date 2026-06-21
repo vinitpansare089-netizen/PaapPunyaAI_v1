@@ -1,0 +1,75 @@
+{
+  "deity": "Krishna",
+  "stories": [
+    {
+      "id": "krishna_1",
+      "title": "Krishna guides Arjuna in moral confusion",
+      "tags": ["dharma", "war", "confusion", "duty"],
+      "story": "During the Kurukshetra war, Arjuna hesitated to fight against his relatives. Krishna reminded him that protecting righteousness requires standing firm even when emotions are painful.",
+      "moral": "Right action is more important than emotional comfort."
+    },
+    {
+      "id": "krishna_2",
+      "title": "Krishna chooses to be a charioteer",
+      "tags": ["humility", "service"],
+      "story": "Despite being a divine figure, Krishna chose to be Arjuna’s charioteer instead of picking a weapon. He showed that leadership sometimes means serving quietly.",
+      "moral": "True strength lies in humility."
+    },
+    {
+      "id": "krishna_3",
+      "title": "Sudama meets Krishna",
+      "tags": ["friendship", "gratitude"],
+      "story": "Sudama visited Krishna with nothing but faith. Krishna welcomed him with overflowing love and generosity, proving that friendship is above wealth.",
+      "moral": "Value relationships over material things."
+    },
+    {
+      "id": "krishna_4",
+      "title": "Lifting Govardhan",
+      "tags": ["protection", "courage"],
+      "story": "When Indra flooded Vrindavan, Krishna lifted Govardhan Hill on his little finger to protect the villagers.",
+      "moral": "Stand up for the people who depend on you."
+    },
+    {
+      "id": "krishna_5",
+      "title": "Universe in Krishna’s mouth",
+      "tags": ["divinity", "wonder"],
+      "story": "Yashoda once asked Krishna to open his mouth. To her shock, she saw the entire universe inside.",
+      "moral": "Divine greatness can hide in simple forms."
+    },
+    {
+      "id": "krishna_6",
+      "title": "Teaching Nishkam Karma",
+      "tags": ["detachment", "wisdom"],
+      "story": "Krishna taught Arjuna to act without attachment and surrender results to a higher purpose.",
+      "moral": "Focus on effort, not outcomes."
+    },
+    {
+      "id": "krishna_7",
+      "title": "Saving Draupadi",
+      "tags": ["protection", "devotion"],
+      "story": "When Draupadi was humiliated, Krishna protected her dignity, proving divine help arrives when intention is pure.",
+      "moral": "Faith invites protection."
+    },
+    {
+      "id": "krishna_8",
+      "title": "Choosing wisdom over army",
+      "tags": ["strategy", "choice"],
+      "story": "Arjuna chose unarmed Krishna over Krishna’s vast army, showing the power of wisdom over sheer force.",
+      "moral": "Right guidance is stronger than thousands of weapons."
+    },
+    {
+      "id": "krishna_9",
+      "title": "Krishna breaks his promise",
+      "tags": ["dharma", "sacrifice"],
+      "story": "Krishna vowed not to wield weapons, yet charged with a chariot wheel to protect Arjuna.",
+      "moral": "Rules bend when protection of the righteous is at stake."
+    },
+    {
+      "id": "krishna_10",
+      "title": "Butter thief with a purpose",
+      "tags": ["innocence", "playfulness"],
+      "story": "Krishna’s butter-stealing leelas were playful teachings that joy is divine when shared.",
+      "moral": "Sometimes joy itself is a spiritual lesson."
+    }
+  ]
+}
