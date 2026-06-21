@@ -1,3 +1,20 @@
+## Why JSON?
+
+Problem:
+Need a simple knowledge base.
+
+Alternatives:
+Database, CSV, APIs.
+
+Decision:
+JSON.
+
+Reason:
+Small dataset, easy to read, easy to modify.
+
+Future:
+PostgreSQL or document database.
+
 ## Embeddings
 
 Problem:
