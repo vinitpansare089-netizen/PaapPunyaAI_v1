@@ -1,3 +1,17 @@
+## Day 1
+
+Decision:
+Use JSON instead of PostgreSQL.
+
+Reason:
+Small dataset.
+
+Future:
+PostgreSQL.
+
+
+
+
 ## Why FAISS?
 
 Problem:
