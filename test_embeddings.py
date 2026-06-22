@@ -14,3 +14,9 @@ texts = []
 
 for story in stories:
     texts.append(story['story'])
+
+embedding_service = EmbeddingService()
+
+embedding = embedding_service.create_embeddings(texts)
+
+print(f'Stories Loaded: {len(stories)}')
