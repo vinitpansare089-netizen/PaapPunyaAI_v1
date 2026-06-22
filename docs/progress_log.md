@@ -27,3 +27,31 @@ Interview Concepts Learned:
 
 Next Target:
 Generate embeddings using SentenceTransformers.
+
+
+# Day 2
+
+Completed:
+
+* Created EmbeddingService
+* Integrated SentenceTransformers
+* Used all-MiniLM-L6-v2 model
+* Generated embeddings for 25 Krishna stories
+
+Output:
+Stories Loaded: 25
+Embeddings Generated: 25
+Embedding Dimension: 384
+
+Key Learning:
+Embeddings convert text into numerical vectors that capture semantic meaning.
+
+Interview Concepts:
+
+* Sentence Embeddings
+* Semantic Search
+* Vector Dimensions
+* SentenceTransformers
+
+Next Target:
+Build FAISS index for similarity search.
