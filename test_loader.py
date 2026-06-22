@@ -1,4 +1,4 @@
-from services.Data_service import load_stories
+from services.data_service import load_stories
 
 stories = load_stories('data/Krishna_stories.json')
 
