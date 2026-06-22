@@ -109,3 +109,32 @@ SentenceTransformer
 Vector Embedding
 ↓
 FAISS Retrieval
+
+
+## Embeddings
+
+Q: What is an embedding?
+
+A:
+A dense numerical vector representation of text where semantically similar text is located closer together in vector space.
+
+---
+
+Q: Why use SentenceTransformers?
+
+A:
+They are optimized for semantic similarity and retrieval tasks.
+
+---
+
+Q: Why all-MiniLM-L6-v2?
+
+A:
+It is lightweight, fast, and provides good retrieval quality for RAG applications.
+
+---
+
+Q: What is the dimension of all-MiniLM-L6-v2?
+
+A:
+384 dimensions.
