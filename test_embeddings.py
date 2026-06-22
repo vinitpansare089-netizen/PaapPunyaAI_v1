@@ -17,6 +17,8 @@ for story in stories:
 
 embedding_service = EmbeddingService()
 
-embedding = embedding_service.create_embeddings(texts)
+embeddings = embedding_service.create_embeddings(texts)
 
 print(f'Stories Loaded: {len(stories)}')
+print(f"Embeddings Generated: {len(embeddings)}")
+print(f"Embedding Dimension: {len(embeddings[0])}")
