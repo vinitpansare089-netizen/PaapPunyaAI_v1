@@ -13,6 +13,7 @@ stories = load_stories("data/krishna_stories.json")
 # Store all stories generated from story
 texts = []
 
+#Appending the stories in texts variables jo ki create_embeddings() func me text ko stories de raha hai
 for story in stories:
     texts.append(story['story'])
 
@@ -20,7 +21,7 @@ embedding_service = EmbeddingService()
 
 embeddings = embedding_service.create_embeddings(texts)
 
-print(texts)
+# print(texts)
 
 print(f'Stories Loaded: {len(stories)}')
 print(f"Embeddings Generated: {len(embeddings)}")
