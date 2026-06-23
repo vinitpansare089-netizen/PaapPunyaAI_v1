@@ -10,6 +10,7 @@ from services.embedding_service import EmbeddingService
 
 stories = load_stories("data/krishna_stories.json")
 
+# Store all stories generated from story
 texts = []
 
 for story in stories:
@@ -18,6 +19,8 @@ for story in stories:
 embedding_service = EmbeddingService()
 
 embeddings = embedding_service.create_embeddings(texts)
+
+print(texts)
 
 print(f'Stories Loaded: {len(stories)}')
 print(f"Embeddings Generated: {len(embeddings)}")
