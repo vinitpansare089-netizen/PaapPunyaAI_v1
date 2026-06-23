@@ -67,4 +67,3 @@ Future:
 * Query embeddings
 * Batch processing
 * Embedding caching
-
