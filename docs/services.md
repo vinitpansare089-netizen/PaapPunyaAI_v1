@@ -2,7 +2,6 @@
 
 ## data_service.py
 
-## data_service.py
 
 Purpose:
 Load mythology datasets.
