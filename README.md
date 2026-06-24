@@ -9,7 +9,6 @@ Mythology-based RAG system using local LLMs.
 - Sentence Transformers
 - FAISS
 - Ollama
-
 - Phi-3
 
 ## Current Progress
