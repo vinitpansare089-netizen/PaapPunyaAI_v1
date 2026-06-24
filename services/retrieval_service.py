@@ -48,4 +48,4 @@ class RetrievalService:
         dimension = len(self.embeddings[0])
         index = faiss.IndexFlatL2(dimension)
 
-        embeddings = np.array(self.embeddings)
+        embeddings = np.array(self.embeddings, dtype= np.float32)
