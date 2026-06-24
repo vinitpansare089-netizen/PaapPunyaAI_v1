@@ -56,5 +56,6 @@ class RetrievalService:
 
         #phir usss enbedding ko index me add kiya ..bssss 
         index.add(embeddings)
-
+        print(self.index.ntotal)
+        
         print("Vectors stored:", index.ntotal)
