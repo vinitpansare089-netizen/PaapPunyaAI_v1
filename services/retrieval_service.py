@@ -60,5 +60,21 @@ class RetrievalService:
         print(self.index.ntotal)
 
         return self.index
+    
+
+    def search(self, query_embeddings, top_k = 3):
+
+        ##FAISS sirf 2D float32 array expect krta hai to pehle us query ko convert karenge
+        query_embeddings = np.array(query_embeddings, dtype=np.float32)
+
+        distance, indices = self.index.search(query_embeddings, top_k)
+
+        results = []
+
+        for index in indices[0]:
+            self.stories[index]
+            return results
+
+
 
         
