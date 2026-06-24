@@ -45,12 +45,16 @@ class RetrievalService:
     
     def create_index(self):
 
+        ##Pehle embeddings ko dimension ke convert kiya
         dimension = len(self.embeddings[0])
 
+        ##Phir uss dimeations ko index me save kiya
         index = faiss.IndexFlatL2(dimension)
 
+        #embeddings ko array me liya float type ke sath
         embeddings = np.array(self.embeddings, dtype= np.float32)
 
+        #phir usss enbedding ko index me add kiya ..bssss 
         index.add(embeddings)
 
         print("Vectors stored:", index.ntotal)
