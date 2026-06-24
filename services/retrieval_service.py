@@ -34,7 +34,7 @@ EmbeddingService creates vectors.
 RetrievalService searches vectors.
 
 """
-import FAISS
+import faiss
 import numpy as np
 
 class RetrievalService:
