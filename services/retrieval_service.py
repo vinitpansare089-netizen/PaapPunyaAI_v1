@@ -39,13 +39,18 @@ import numpy as np
 
 class RetrievalService:
 
-    def __ini__(self, embeddings, stories):
+    def __init__(self, embeddings, stories):
         self.embeddings = embeddings
         self.stories = stories
     
     def create_index(self):
 
         dimension = len(self.embeddings[0])
+
         index = faiss.IndexFlatL2(dimension)
 
         embeddings = np.array(self.embeddings, dtype= np.float32)
+
+        index.add(embeddings)
+
+        print("Vectors stored:", index.ntotal)
