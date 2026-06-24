@@ -39,7 +39,7 @@ import numpy as np
 
 class RetrievalService:
 
-    def __init__(self, embeddings, stories):## Created constructor for what will goes inside like embedding and stories
+    def __init__(self, embeddings, stories):## Created constructor for... what will goes inside like embedding and stories
         self.embeddings = embeddings
         self.stories = stories
     
