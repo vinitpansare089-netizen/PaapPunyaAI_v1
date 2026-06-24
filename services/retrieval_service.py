@@ -59,4 +59,6 @@ class RetrievalService:
 
         print(self.index.ntotal)
 
+        return self.index
+
         
