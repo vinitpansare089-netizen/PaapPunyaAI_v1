@@ -85,4 +85,3 @@ def search(self, query_embeddings, top_k=3):
         )
 
     return results
-
