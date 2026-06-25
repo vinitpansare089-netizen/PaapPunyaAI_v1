@@ -27,4 +27,3 @@ print(f'Stories Loaded: {len(stories)}')
 print(f"Embeddings Generated: {len(embeddings)}")
 print(f"Embedding Dimension: {len(embeddings[0])}")
 
-
