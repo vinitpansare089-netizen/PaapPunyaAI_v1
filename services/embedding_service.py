@@ -54,4 +54,4 @@ class EmbeddingService:
             Yaha SE text lega aur encode kar raha hai vectors me ...vinit jaise usne teri baaton ke tukde kiye the.       
         """
         return self.model.encode(texts) 
-    
+  
