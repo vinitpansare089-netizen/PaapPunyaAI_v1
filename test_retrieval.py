@@ -17,7 +17,7 @@ for story in stories:
     texts.append(story["story"])
 
 ### Ab finally tukde ho hi gae
-story_embeddings = EmbeddingService.create_embeddings(texts)
+story_embeddings = embeddings.create_embeddings(texts)
 
 ################ Retrieval section #####################
 
@@ -38,7 +38,7 @@ query = "Should I lie to help my friend?"
 ############ Query Embedding ###########
 
 #### aur gossip ke tukde kar de
-query_embeddings = EmbeddingService.create_embedding([query])
+query_embeddings = embeddings.create_embedding([query])
 
 ############# Search Section ##############
 
