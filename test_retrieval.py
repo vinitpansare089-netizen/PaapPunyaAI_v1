@@ -45,4 +45,10 @@ query_embeddings = EmbeddingService.create_embedding([query])
 ## Now look in Data,, is there any purani technique that has been used before to trap you
 results = retrieval_service.search(query_embeddings, top_k =3)
 
-##########
+########## Final Results Section ############
+
+## now if purana data matched then don't except her proposal and BHAAAAGGGGGGGGGGGGGG.......
+
+print('\nTop Matching Stories\n')
+
+for i 
