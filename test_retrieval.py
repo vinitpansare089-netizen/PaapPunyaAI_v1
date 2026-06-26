@@ -21,15 +21,17 @@ story_embeddings = EmbeddingService.create_embeddings(texts)
 
 ################ Retrieval section #####################
 
+## Sari yaadon ko le le
 retrieval_service = RetrievalService(story_embeddings, stories)
 
 ############### FAISS Section ####################
 
-retrieval_service = create_index()
+# Sb ko store kar le 
+retrieval_service.create_index()
 
 
 ######### USER se qurey lele bhai ab ################
 
 query = "Should I lie to help my friend?"
 
-############
+############ Bhai ab 
