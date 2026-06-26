@@ -11,7 +11,9 @@ embeddings = EmbeddingService()
 
 texts = []
 
+## Ek ko bhi mat chodna sb stories ke kar dena
 for story in stories:
     story.texts.append(story["story"])
 
+### Ab finally tukde ho hi gae
 story_embeddings = EmbeddingService.create_embeddings(texts)
