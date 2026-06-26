@@ -53,3 +53,5 @@ print('\nTop Matching Stories\n')
 
 for i , stories in enumerate(results, start=1):
     print(f'{i}. {story["title"]}')
+    print(f'Teaching: {story["teaching"]}')
+    
