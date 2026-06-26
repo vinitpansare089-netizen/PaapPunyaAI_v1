@@ -30,8 +30,8 @@ retrieval_service = RetrievalService(story_embeddings, stories)
 retrieval_service.create_index()
 
 
-######### USER se qurey lele bhai ab ################
+######### Bhai ab new gossip le  ################
 
 query = "Should I lie to help my friend?"
 
-############ Bhai ab 
+############ aur gossip ke tukde kar de ###########
