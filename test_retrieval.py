@@ -21,6 +21,4 @@ story_embeddings = EmbeddingService.create_embeddings(texts)
 
 ################ Retrieval section #####################
 
-
-
-
+retrieval_service = RetrievalService(story_embeddings, stories)
