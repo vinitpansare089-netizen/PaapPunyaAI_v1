@@ -43,4 +43,6 @@ query_embeddings = EmbeddingService.create_embedding([query])
 ############# Search Section ##############
 
 ## Now look in Data,, is there any purani technique that has been used before to trap you
-results = 
+results = retrieval_service.search(query_embeddings, top_k =3)
+
+##########
