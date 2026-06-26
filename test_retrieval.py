@@ -5,8 +5,9 @@ from services.retrieval_service import RetrievalService
 ##Test krne je liye stories load kar like vo teri krti hai
 stories = load_stories('data/Krishna_stories.json')
 
-### ab sale uske dil ke tukde bhi kar de stories ko numbers me weight karke
+################  Agla section #####################
 
+### ab sale uske dil ke tukde bhi kar de stories ko numbers me weight karke
 embeddings = EmbeddingService()
 
 texts = []
@@ -17,3 +18,9 @@ for story in stories:
 
 ### Ab finally tukde ho hi gae
 story_embeddings = EmbeddingService.create_embeddings(texts)
+
+################  Agla section #####################
+
+
+
+
