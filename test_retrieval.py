@@ -51,4 +51,5 @@ results = retrieval_service.search(query_embeddings, top_k =3)
 
 print('\nTop Matching Stories\n')
 
-for i 
+for i , stories in enumerate(results, start=1):
+    print(f'{i}. {story["title"]}')
