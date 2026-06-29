@@ -16,7 +16,7 @@ Mythology-based RAG system using local LLMs.
 ✅ Embeddings
 ✅ FAISS Retrieval
 🔄 LLM Integration
-🔄 Streamlit Frontend
+🔄 Responces
 
 #Architecture
 Mythology Stories (JSON)
