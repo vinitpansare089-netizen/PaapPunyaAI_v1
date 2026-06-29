@@ -38,7 +38,7 @@ query = "Should I lie to help my friend?"
 ############ Query Embedding ###########
 
 #### aur gossip ke tukde kar de
-query_embeddings = embeddings.create_embedding([query])
+query_embeddings = embeddings.create_embeddings([query])
 
 ############# Search Section ##############
 
@@ -51,7 +51,7 @@ results = retrieval_service.search(query_embeddings, top_k =3)
 
 print('\nTop Matching Stories\n')
 
-for i , stories in enumerate(results, start=1):
+for i , story in enumerate(results, start=1):
     print(f'{i}. {story["title"]}')
     print(f'Teaching: {story["teaching"]}')
     print(" - " * 60)
