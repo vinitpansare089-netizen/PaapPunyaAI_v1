@@ -10,7 +10,7 @@ stories = load_stories('data/Krishna_stories.json')
 ##Extract stories in text
 texts = []
 
-for story in stories():
+for story in stories:
     texts.append(story['story'])
 
 ### Embeddings starts form here
