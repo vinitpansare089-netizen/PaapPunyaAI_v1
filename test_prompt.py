@@ -7,12 +7,14 @@ from services.prompt_service import PromptService
 stories = load_stories('data/Krishna_stories.json')
 # print(stories)
 
-##yaha se embedding ka kaam start
-embeddings = EmbeddingService()
-
+##Extract stories in text
 text = []
 
 for story in stories():
     text.append(story['story'])
+
+### Embeddings starts form here
+story_embeddings = EmbeddingService.create_embeddings(text)
+
 
 
