@@ -14,7 +14,9 @@ for story in stories():
     texts.append(story['story'])
 
 ### Embeddings starts form here
-story_embeddings = EmbeddingService.create_embeddings(texts)
+embeddings = EmbeddingService()
+
+story_embeddings = embeddings.create_embeddings(texts)
 
 ###Retrieval starts from here
 retrievalservice = RetrievalService(
@@ -27,4 +29,6 @@ retrievalservice.create_index()
 ### ASK Query
 query = "Should I lie to help my friend?"
 
+### Query embedding through embedding service
+query_embeddings = embeddings.create_embeddings([query])
 
