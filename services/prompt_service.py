@@ -74,4 +74,4 @@ Response Format:
 4. Practical Advice
 """
 
-        return prompt
+        return prompt 
