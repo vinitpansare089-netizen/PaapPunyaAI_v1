@@ -8,13 +8,17 @@ stories = load_stories('data/Krishna_stories.json')
 # print(stories)
 
 ##Extract stories in text
-text = []
+texts = []
 
 for story in stories():
-    text.append(story['story'])
+    texts.append(story['story'])
 
 ### Embeddings starts form here
-story_embeddings = EmbeddingService.create_embeddings(text)
+story_embeddings = EmbeddingService.create_embeddings(texts)
 
+###Retrieval starts from here
+retrievalservice = RetrievalService(
+    story_embeddings, stories
+)
 
 
