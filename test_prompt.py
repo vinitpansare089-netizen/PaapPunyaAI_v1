@@ -40,4 +40,8 @@ results = retrievalservice.search(
 ###Prompt service uses 
 prompt_service = PromptService()
 
-prompt = 
+prompt = prompt_service.build_prompt(
+    results, query
+)
+
+print(prompt)
