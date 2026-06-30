@@ -41,7 +41,7 @@ results = retrievalservice.search(
 prompt_service = PromptService()
 
 prompt = prompt_service.build_prompt(
-    results, query
+    query,results
 )
 
 print(prompt)
