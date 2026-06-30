@@ -21,4 +21,10 @@ retrievalservice = RetrievalService(
     story_embeddings, stories
 )
 
+###FAISS indexing 
+retrievalservice.create_index()
+
+### ASK Query
+query = "Should I lie to help my friend?"
+
 
