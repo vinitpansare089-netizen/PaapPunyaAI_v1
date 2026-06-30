@@ -23,13 +23,12 @@ class PromptService:
 
         # store all retrieved stories
         context = ""
-        print(type(stories))
-        print(stories)
+        # print(type(stories))
+
         # context Build
         for i, story in enumerate(stories, start=1):
 
-            print(type(story))
-            print(story)
+            # print(type(story))
             context += f"""
 Story {i}
 
