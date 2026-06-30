@@ -32,3 +32,12 @@ query = "Should I lie to help my friend?"
 ### Query embedding through embedding service
 query_embeddings = embeddings.create_embeddings([query])
 
+### Retrieve stories
+results = retrievalservice.search(
+    query_embeddings, top_k=3
+)
+
+###Prompt service uses 
+prompt_service = PromptService()
+
+prompt = 
