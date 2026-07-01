@@ -19,7 +19,6 @@ Created For:
 PaapPunyaAI_v1
 """
 
-
 import json
 
 def load_stories(file_path):
