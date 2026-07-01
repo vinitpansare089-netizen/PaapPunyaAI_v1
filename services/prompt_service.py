@@ -30,6 +30,7 @@ class PromptService:
         for i, story in enumerate(stories, start=1):
 
             context += f"""
+            
 Story {i}
 
 Title: {story["title"]}
