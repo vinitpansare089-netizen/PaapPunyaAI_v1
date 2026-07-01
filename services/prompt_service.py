@@ -63,7 +63,6 @@ Rules:
 - Be clear, practical and compassionate.
 
 Response Format:
-
 Krishna's Guidance
 
 Direct Answer:
