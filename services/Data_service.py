@@ -31,4 +31,3 @@ def load_stories(file_path):
     
     return data['stories']
 
-
