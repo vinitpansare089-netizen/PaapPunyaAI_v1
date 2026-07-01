@@ -114,7 +114,6 @@ FAISS Retrieval
 ## Embeddings
 
 Q: What is an embedding?
-
 A:
 A dense numerical vector representation of text where semantically similar text is located closer together in vector space.
 
