@@ -15,7 +15,9 @@ Input:
 Output:
 - LLM Response 
 """
-import ollama
+from ollama import Client
+
+client = Client(host="http://host.docker.internal:11434")
 
 
 class LLMService:
@@ -25,12 +27,17 @@ class LLMService:
         
     def generate_response(self, prompt):
 
-            response = ollama.chat(
+            response = client.chat(
                  model = self.model_name,
                  messages = [{
                       'role': "user",
                       "content": prompt
-                 }]
-            )
-
-            return response["messages"]["content"]
+                 }],
+                  options={
+                    "temperature": 0.2,
+                    # "num_predict": 120
+               }
+          )
+                    
+            
+            return response["message"]["content"] 
