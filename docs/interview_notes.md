@@ -138,3 +138,57 @@ Q: What is the dimension of all-MiniLM-L6-v2?
 
 A:
 384 dimensions.
+
+
+Interview Notes (Keep Updating)
+
+As you requested, we'll keep documenting architecture and interview points throughout the project.
+
+Component: FastAPI API Layer
+
+Problem
+
+The RAG pipeline only works through a Python script, making it inaccessible to external applications.
+
+Solution
+
+Expose the pipeline through a REST API using FastAPI, allowing any frontend or client to send questions over HTTP.
+
+Why FastAPI?
+
+High performance (built on ASGI).
+Automatic request validation with Pydantic.
+Interactive Swagger documentation.
+Async support.
+Widely adopted for ML and AI backend services.
+
+Responsibilities
+
+Receive HTTP requests.
+Validate input.
+Call existing services in sequence.
+Format the response as JSON.
+Handle exceptions and return appropriate HTTP status codes.
+
+Responsibilities it should not have
+
+Embedding generation.
+Vector search.
+Prompt engineering.
+LLM communication.
+
+Keeping these concerns separate improves maintainability and testability.
+
+Possible Interview Questions
+
+Q: Why use FastAPI for an AI backend?
+
+A: It offers excellent performance, automatic API documentation, request validation, asynchronous support, and integrates well with Python ML libraries.
+
+Q: Why separate services instead of writing everything in one endpoint?
+
+A: To follow the Single Responsibility Principle. Each service focuses on one task, making the application modular, easier to test, maintain, and extend.
+
+Q: What role does the API layer play?
+
+A: It acts as an orchestrator. It accepts requests, validates them, invokes the business services, and returns structured responses without containing the core AI logic.
