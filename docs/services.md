@@ -55,6 +55,7 @@ Current Responsibilities:
 * Load SentenceTransformer model
 * Generate embeddings for stories
 
+
 Model:
 all-MiniLM-L6-v2
 
