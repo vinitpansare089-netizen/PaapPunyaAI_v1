@@ -55,7 +55,6 @@ User Question:
 {query}
 
 Rules:
-
 - Use ONLY the retrieved context.
 - Never invent stories or teachings.
 - If the context is insufficient, clearly say so.
