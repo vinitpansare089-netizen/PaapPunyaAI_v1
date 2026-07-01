@@ -2,38 +2,37 @@
 prompt_service.py
 
 Purpose:
-Build the prompt that will be sent to the LLM.(The person giving advice after reading the full contex.....;;;)
+Build the prompt that will be sent to the LLM.
+(The person giving advice after reading the full context.)
 
 Responsibilities:
-- Receive user querys
+- Receive user query
 - Receive retrieved stories
-- Convert them into one structured prompt(Ek structured message with full context...)
+- Convert them into one structured prompt
 
 Input:
-- User query (ek aur problem...)
-- Retrieved stories (Purane incidents ya chats jo relevant hain...)
+- User query
+- Retrieved stories
 
 Output:
 - Final prompt string
 """
 
+
 class PromptService:
 
     def build_prompt(self, query, stories):
 
-        # store all retrieved stories
+        # Store retrieved knowledge
         context = ""
-        # print(type(stories))
 
-        # context Build
+        # Build context
         for i, story in enumerate(stories, start=1):
 
-            # print(type(story))
             context += f"""
 Story {i}
 
-Title:
-{story["title"]}
+Title: {story["title"]}
 
 Story:
 {story["story"]}
@@ -41,37 +40,46 @@ Story:
 Teaching:
 {story["teaching"]}
 
-
 """
 
         # Build final prompt
         prompt = f"""
 You are PaapPunyaAI.
 
-You answer according to the teachings of Lord Krishna.
+You are a wise AI guide that answers moral and ethical questions using ONLY the retrieved teachings of Lord Krishna.
+
+Retrieved Context:
+{context}
 
 User Question:
 {query}
 
-Relevant Stories:
-{context}
+Rules:
 
-Instructions:
-- Use only the retrieved stories.
-- Do not invent new mythology.
-- If the stories are not enough, clearly say so.
-- Be respectful and compassionate.
-- Give practical advice.
+- Use ONLY the retrieved context.
+- Never invent stories or teachings.
+- If the context is insufficient, clearly say so.
+- Do not repeat the user's question.
+- Keep the answer under 120 words.
+- Be clear, practical and compassionate.
 
 Response Format:
 
-1. Direct Answer
+Krishna's Guidance
 
-2. Reasoning
+Direct Answer:
+(1-2 sentences)
 
-3. Krishna's Teaching
+Reasoning:
+(2-3 sentences based only on the retrieved stories.)
 
-4. Practical Advice
+Teaching:
+(One sentence.)
+
+Practical Advice:
+• Bullet 1
+• Bullet 2
+• Bullet 3
 """
 
-        return prompt 
+        return prompt
