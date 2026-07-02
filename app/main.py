@@ -11,3 +11,11 @@ def Home():
     return {
         'message': "PaapPunyaAI is Running"
     }
+
+@app.get("/health")
+def health():
+    return {"status": "Healthy"}
+
+@app.get("/about")
+def about():
+    return {"project": "PaapPunyaAI"}
