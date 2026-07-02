@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from app.routers import judge
 
 app = FastAPI(
     title="PaapPunyaAI",
@@ -6,16 +7,10 @@ app = FastAPI(
     description="AI-powered ethical reasoning system."
 )
 
-app.get('/')
-def Home():
+app.include_router(judge.router)
+
+@app.get('/chat')
+def do():
     return {
-        'message': "PaapPunyaAI is Running"
+        'message' : "Health is stable"
     }
-
-@app.get("/health")
-def health():
-    return {"status": "Healthy"}
-
-@app.get("/about")
-def about():
-    return {"project": "PaapPunyaAI"}
