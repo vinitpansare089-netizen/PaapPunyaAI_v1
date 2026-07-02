@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import judge
+from app.routers import chat
 
 app = FastAPI(
     title="PaapPunyaAI",
@@ -7,7 +7,7 @@ app = FastAPI(
     description="AI-powered ethical reasoning system."
 )
 
-app.include_router(judge.router)
+app.include_router(chat.router)
 
 @app.get('/chat')
 def do():
