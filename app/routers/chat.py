@@ -1,3 +1,5 @@
+import time
+
 from fastapi import APIRouter
 from app.models.request_models import ChatRequest
 
@@ -53,20 +55,43 @@ def ask(request: ChatRequest):
         """
     query = request.question
 
+    start = time.time()
+
     query_embedding = embedding_service.create_embeddings([query])
+
+    print(f"Embedding: {time.time() - start:.2f}s")
+
+    start = time.time()
 
     results = retrieval_service.search(
         query_embedding,
         top_k=3
     )
 
+    print(f"Retrieval: {time.time() - start:.2f}s")
+
+    start = time.time()
+
     prompt = prompt_service.build_prompt(
         query,
         results
     )
 
+    print(f"Prompt: {time.time() - start:.2f}s")
+
+    start = time.time()
+
     answer = llm_service.generate_response(prompt)
+    print(f"LLM: {time.time() - start:.2f}s")
+
+    # return {
+    #     "answer": answer
+    # }
 
     return {
-        "answer": answer
-    }
+    "answer": answer,
+    "retrieved_stories": [
+        story["title"]
+        for story in results
+    ]
+}
