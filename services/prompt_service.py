@@ -81,6 +81,8 @@ Practical Advice:
 • Bullet 1
 • Bullet 2
 • Bullet 3
+
+Keep the entire response concise and under 120 tokens.
 """
 
         return prompt
