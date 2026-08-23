@@ -22,7 +22,7 @@ client = Client(host="http://host.docker.internal:11434")
 
 class LLMService:
 
-    def __init__(self, model_name="phi3"):
+    def __init__(self, model_name="qwen2.5:0.5b"):
         self.model_name = model_name
         
     def generate_response(self, prompt):
@@ -35,7 +35,7 @@ class LLMService:
                  }],
                   options={
                     "temperature": 0.2,
-                    # "num_predict": 120
+                    "num_predict": 120
                }
           )
                     
