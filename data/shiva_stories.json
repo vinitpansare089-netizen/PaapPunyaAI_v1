@@ -1,0 +1,304 @@
+{
+  "stories": [
+    {
+      "id": "shiva_1",
+      "deity": "Shiva",
+      "title": "Shiva drinks the poison",
+      "tags": [
+        "sacrifice",
+        "compassion",
+        "selflessness"
+      ],
+      "story": "During the churning of the cosmic ocean, a deadly poison threatened all existence. Shiva consumed the poison to protect creation, holding it in his throat.",
+      "teaching": "True selflessness means accepting personal hardship to protect others."
+    },
+    {
+      "id": "shiva_2",
+      "deity": "Shiva",
+      "title": "Shiva and the Ganga",
+      "tags": [
+        "compassion",
+        "responsibility",
+        "balance"
+      ],
+      "story": "When the Ganga descended from heaven with tremendous force, Shiva received her in his matted hair and released her gently so the earth would not be destroyed.",
+      "teaching": "Great power must be controlled and directed responsibly."
+    },
+    {
+      "id": "shiva_3",
+      "deity": "Shiva",
+      "title": "Shiva and Parvati",
+      "tags": [
+        "love",
+        "partnership",
+        "devotion"
+      ],
+      "story": "Parvati undertook deep devotion and discipline to unite with Shiva. Their union represents the balance of complementary forces.",
+      "teaching": "A meaningful relationship requires devotion, patience and balance."
+    },
+    {
+      "id": "shiva_4",
+      "deity": "Shiva",
+      "title": "Shiva destroys Tripura",
+      "tags": [
+        "justice",
+        "ego",
+        "destruction"
+      ],
+      "story": "Shiva destroyed the three cities of the powerful Tripurasuras when their power became a threat to cosmic order.",
+      "teaching": "Power and ego must not be allowed to destroy balance and righteousness."
+    },
+    {
+      "id": "shiva_5",
+      "deity": "Shiva",
+      "title": "Shiva and Bhasmasura",
+      "tags": [
+        "wisdom",
+        "desire",
+        "consequences"
+      ],
+      "story": "Bhasmasura received a powerful boon from Shiva but attempted to misuse it against Shiva himself. Through Vishnu's intervention, the danger was ended.",
+      "teaching": "Power without wisdom can become destructive."
+    },
+    {
+      "id": "shiva_6",
+      "deity": "Shiva",
+      "title": "Shiva and Markandeya",
+      "tags": [
+        "devotion",
+        "faith",
+        "protection"
+      ],
+      "story": "Markandeya was devoted to Shiva from childhood. When death came for him according to his destined lifespan, Shiva intervened and protected his devotee.",
+      "teaching": "Deep devotion can give strength in the face of fear and mortality."
+    },
+    {
+      "id": "shiva_7",
+      "deity": "Shiva",
+      "title": "Shiva as the humble ascetic",
+      "tags": [
+        "humility",
+        "detachment",
+        "simplicity"
+      ],
+      "story": "Shiva is often depicted living as an ascetic, detached from wealth, luxury and social status.",
+      "teaching": "Inner strength does not depend on possessions or status."
+    },
+    {
+      "id": "shiva_8",
+      "deity": "Shiva",
+      "title": "Shiva and the hunter",
+      "tags": [
+        "devotion",
+        "intention",
+        "compassion"
+      ],
+      "story": "Stories associated with Shiva describe simple devotees whose sincere offerings and intentions mattered more than their social position or material wealth.",
+      "teaching": "Sincerity of intention can be more important than outward form."
+    },
+    {
+      "id": "shiva_9",
+      "deity": "Shiva",
+      "title": "Shiva and Ganesha",
+      "tags": [
+        "family",
+        "duty",
+        "conflict"
+      ],
+      "story": "Ganesha guarded Parvati's entrance and confronted Shiva without recognizing him. After the conflict, Shiva restored Ganesha and accepted him as his son.",
+      "teaching": "Conflict can be transformed through understanding, acceptance and restoration."
+    },
+    {
+      "id": "shiva_10",
+      "deity": "Shiva",
+      "title": "Shiva and Kartikeya",
+      "tags": [
+        "family",
+        "wisdom",
+        "competition"
+      ],
+      "story": "Shiva and Parvati presented a challenge to their sons Ganesha and Kartikeya. The story highlights different forms of intelligence and devotion.",
+      "teaching": "Wisdom is not always measured by speed or physical achievement."
+    },
+    {
+      "id": "shiva_11",
+      "deity": "Shiva",
+      "title": "Shiva and Ravana",
+      "tags": [
+        "devotion",
+        "strength",
+        "ego"
+      ],
+      "story": "Ravana performed intense devotion toward Shiva and demonstrated extraordinary determination. His devotion brought him great power, but his later actions also showed the danger of unchecked ego.",
+      "teaching": "Devotion and power cannot protect someone from the consequences of arrogance."
+    },
+    {
+      "id": "shiva_12",
+      "deity": "Shiva",
+      "title": "Shiva as Nataraja",
+      "tags": [
+        "transformation",
+        "balance",
+        "creation"
+      ],
+      "story": "Shiva's cosmic dance as Nataraja represents the continuous cycle of creation, preservation and destruction.",
+      "teaching": "Change and transformation are natural parts of existence."
+    },
+    {
+      "id": "shiva_13",
+      "deity": "Shiva",
+      "title": "Shiva opens his third eye",
+      "tags": [
+        "wisdom",
+        "ego",
+        "awareness"
+      ],
+      "story": "Shiva's third eye represents deeper awareness and spiritual insight. When opened, it can destroy ignorance and illusion.",
+      "teaching": "True insight can destroy ignorance and reveal reality."
+    },
+    {
+      "id": "shiva_14",
+      "deity": "Shiva",
+      "title": "Shiva and Kama",
+      "tags": [
+        "desire",
+        "discipline",
+        "self-control"
+      ],
+      "story": "Kama attempted to disturb Shiva's deep meditation. Shiva opened his third eye and reduced Kama to ashes, illustrating the power of disciplined awareness.",
+      "teaching": "Uncontrolled desire can be overcome through awareness and discipline."
+    },
+    {
+      "id": "shiva_15",
+      "deity": "Shiva",
+      "title": "Shiva and sacred ash",
+      "tags": [
+        "impermanence",
+        "detachment",
+        "wisdom"
+      ],
+      "story": "Shiva is traditionally associated with sacred ash, which symbolizes the temporary nature of worldly existence.",
+      "teaching": "Remembering impermanence can reduce attachment to temporary things."
+    },
+    {
+      "id": "shiva_16",
+      "deity": "Shiva",
+      "title": "Shiva and the crescent moon",
+      "tags": [
+        "time",
+        "balance",
+        "calmness"
+      ],
+      "story": "Shiva wears the crescent moon on his head, symbolizing the passage of time and mastery over changing cycles.",
+      "teaching": "Remain steady even as circumstances and time change."
+    },
+    {
+      "id": "shiva_17",
+      "deity": "Shiva",
+      "title": "Shiva and the bull Nandi",
+      "tags": [
+        "devotion",
+        "loyalty",
+        "service"
+      ],
+      "story": "Nandi serves as Shiva's devoted companion and vehicle, representing loyalty and dedicated service.",
+      "teaching": "Faithful service requires consistency and devotion."
+    },
+    {
+      "id": "shiva_18",
+      "deity": "Shiva",
+      "title": "Shiva and the cobra",
+      "tags": [
+        "fear",
+        "self-control",
+        "courage"
+      ],
+      "story": "Shiva is traditionally depicted wearing a cobra around his neck, symbolizing mastery over fear and dangerous forces.",
+      "teaching": "Courage comes from mastering fear rather than being controlled by it."
+    },
+    {
+      "id": "shiva_19",
+      "deity": "Shiva",
+      "title": "Shiva and Mount Kailash",
+      "tags": [
+        "solitude",
+        "meditation",
+        "detachment"
+      ],
+      "story": "Mount Kailash is traditionally regarded as Shiva's abode and represents solitude, contemplation and spiritual discipline.",
+      "teaching": "Solitude and reflection can help develop inner clarity."
+    },
+    {
+      "id": "shiva_20",
+      "deity": "Shiva",
+      "title": "Shiva and Daksha's sacrifice",
+      "tags": [
+        "ego",
+        "respect",
+        "family"
+      ],
+      "story": "Daksha's conflict with Shiva and the events surrounding Sati's sacrifice illustrate the destructive consequences of pride, disrespect and unresolved conflict.",
+      "teaching": "Ego and disrespect can create suffering far beyond the original conflict."
+    },
+    {
+      "id": "shiva_21",
+      "deity": "Shiva",
+      "title": "Shiva as Ardhanarishvara",
+      "tags": [
+        "balance",
+        "unity",
+        "equality"
+      ],
+      "story": "The form of Ardhanarishvara depicts Shiva and Parvati as complementary halves of one form, representing the unity of masculine and feminine principles.",
+      "teaching": "Strength comes from balance and recognizing complementary forces."
+    },
+    {
+      "id": "shiva_22",
+      "deity": "Shiva",
+      "title": "Shiva and the sages",
+      "tags": [
+        "wisdom",
+        "humility",
+        "knowledge"
+      ],
+      "story": "Shiva appears in many traditions as a teacher who guides sages and seekers toward deeper understanding and spiritual knowledge.",
+      "teaching": "Knowledge becomes meaningful when it leads to self-understanding."
+    },
+    {
+      "id": "shiva_23",
+      "deity": "Shiva",
+      "title": "Shiva and Andhaka",
+      "tags": [
+        "ignorance",
+        "transformation",
+        "discipline"
+      ],
+      "story": "Shiva confronted Andhaka when his desire and ignorance led him toward destructive actions, ultimately transforming the conflict through divine intervention.",
+      "teaching": "Unchecked desire and ignorance can lead to destruction and must be transformed."
+    },
+    {
+      "id": "shiva_24",
+      "deity": "Shiva",
+      "title": "Shiva as the destroyer",
+      "tags": [
+        "transformation",
+        "renewal",
+        "change"
+      ],
+      "story": "Shiva's role as a destroyer is understood as destruction that makes transformation and renewal possible.",
+      "teaching": "Some endings are necessary for new beginnings."
+    },
+    {
+      "id": "shiva_25",
+      "deity": "Shiva",
+      "title": "Shiva as a compassionate lord",
+      "tags": [
+        "compassion",
+        "forgiveness",
+        "devotion"
+      ],
+      "story": "Shiva is widely revered as a compassionate deity who responds to sincere devotion and gives seekers opportunities for transformation.",
+      "teaching": "Compassion and forgiveness can open the path toward transformation."
+    }
+  ]
+}
