@@ -35,3 +35,17 @@ Prompt Builder
 Phi-3 / Mistral (Ollama)
           ↓
 Final Response
+
+
+
+## Docker Start Commands
+
+- cd C:\Trinovous-Journey\PaapPunyaAI_v1
+
+- docker ps
+
+- docker start paappunya-dev
+
+- docker exec -it paappunya-dev bash
+
+- uvicorn app.main:app --host 0.0.0.0 --port 8000
