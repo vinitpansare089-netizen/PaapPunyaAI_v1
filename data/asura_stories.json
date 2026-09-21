@@ -1,0 +1,304 @@
+{
+  "stories": [
+    {
+      "id": "asura_1",
+      "deity": "Asura",
+      "title": "Hiranyakashipu's quest for power",
+      "tags": [
+        "ambition",
+        "power",
+        "pride"
+      ],
+      "story": "Hiranyakashipu performed severe austerities seeking extraordinary protection and power, eventually becoming convinced that his strength made him nearly invincible.",
+      "teaching": "Power gained without humility can turn ambition into destructive pride."
+    },
+    {
+      "id": "asura_2",
+      "deity": "Asura",
+      "title": "Prahlada remains devoted",
+      "tags": [
+        "devotion",
+        "courage",
+        "conviction"
+      ],
+      "story": "Prahlada remained devoted to Vishnu despite pressure from his father Hiranyakashipu to abandon his faith.",
+      "teaching": "Strong conviction can remain steady even when powerful people demand conformity."
+    },
+    {
+      "id": "asura_3",
+      "deity": "Asura",
+      "title": "Hiranyakashipu and Prahlada",
+      "tags": [
+        "ego",
+        "authority",
+        "devotion"
+      ],
+      "story": "Hiranyakashipu's authority could not force Prahlada to abandon his convictions, revealing the limits of worldly power over inner belief.",
+      "teaching": "External authority cannot fully control a person's inner convictions."
+    },
+    {
+      "id": "asura_4",
+      "deity": "Asura",
+      "title": "Hiranyaksha challenges the gods",
+      "tags": [
+        "strength",
+        "conflict",
+        "pride"
+      ],
+      "story": "Hiranyaksha used his immense strength to challenge divine powers and disturb the balance of the worlds.",
+      "teaching": "Strength becomes destructive when it is used to dominate rather than protect."
+    },
+    {
+      "id": "asura_5",
+      "deity": "Asura",
+      "title": "Hiranyaksha and Varaha",
+      "tags": [
+        "conflict",
+        "power",
+        "consequences"
+      ],
+      "story": "Hiranyaksha confronted Varaha after disrupting the cosmic order, ultimately losing the conflict.",
+      "teaching": "Unchecked power can eventually meet consequences when it disrupts the larger order."
+    },
+    {
+      "id": "asura_6",
+      "deity": "Asura",
+      "title": "Mahishasura's rise",
+      "tags": [
+        "ambition",
+        "power",
+        "arrogance"
+      ],
+      "story": "Mahishasura gained great power and used it to challenge the gods and establish his authority over the heavenly realm.",
+      "teaching": "Ambition without restraint can transform leadership into domination."
+    },
+    {
+      "id": "asura_7",
+      "deity": "Asura",
+      "title": "Mahishasura and Durga",
+      "tags": [
+        "pride",
+        "conflict",
+        "consequences"
+      ],
+      "story": "Mahishasura's growing power and refusal to yield led to his confrontation with Durga.",
+      "teaching": "Pride can make a powerful person underestimate consequences."
+    },
+    {
+      "id": "asura_8",
+      "deity": "Asura",
+      "title": "Bhasmasura's boon",
+      "tags": [
+        "desire",
+        "power",
+        "self-interest"
+      ],
+      "story": "Bhasmasura obtained a powerful boon and immediately sought to use it for his own advantage.",
+      "teaching": "A powerful ability guided only by desire can become dangerous to everyone, including its owner."
+    },
+    {
+      "id": "asura_9",
+      "deity": "Asura",
+      "title": "Bhasmasura is deceived by his own desire",
+      "tags": [
+        "desire",
+        "deception",
+        "consequences"
+      ],
+      "story": "Bhasmasura's desire for power led him into a situation where his own actions turned against him.",
+      "teaching": "Unchecked desire can make a person vulnerable to their own impulses."
+    },
+    {
+      "id": "asura_10",
+      "deity": "Asura",
+      "title": "Ravana's ambition",
+      "tags": [
+        "ambition",
+        "pride",
+        "desire"
+      ],
+      "story": "Ravana accumulated great knowledge, strength, and authority, but his ambition and desires increasingly shaped his decisions.",
+      "teaching": "Knowledge and strength do not prevent destructive choices when desire dominates judgment."
+    },
+    {
+      "id": "asura_11",
+      "deity": "Asura",
+      "title": "Ravana and Sita",
+      "tags": [
+        "desire",
+        "attachment",
+        "consequences"
+      ],
+      "story": "Ravana's desire for Sita led him to abduct her, creating a conflict that ultimately brought destruction upon his kingdom.",
+      "teaching": "Desire that ignores another person's autonomy can lead to severe consequences."
+    },
+    {
+      "id": "asura_12",
+      "deity": "Asura",
+      "title": "Kumbhakarna's counsel",
+      "tags": [
+        "loyalty",
+        "duty",
+        "wisdom"
+      ],
+      "story": "Kumbhakarna recognized problems in Ravana's actions but remained connected to his brother and fought alongside him.",
+      "teaching": "Loyalty can conflict with judgment, and difficult choices require recognizing both."
+    },
+    {
+      "id": "asura_13",
+      "deity": "Asura",
+      "title": "Vibhishana leaves Ravana",
+      "tags": [
+        "integrity",
+        "courage",
+        "dissent"
+      ],
+      "story": "Vibhishana advised Ravana to return Sita and avoid war. When Ravana rejected the counsel, Vibhishana left Lanka.",
+      "teaching": "Integrity may require opposing even those to whom we are loyal."
+    },
+    {
+      "id": "asura_14",
+      "deity": "Asura",
+      "title": "Bali's generosity",
+      "tags": [
+        "generosity",
+        "commitment",
+        "sacrifice"
+      ],
+      "story": "King Bali was known for generosity and kept his commitment when Vamana asked for three steps of land, despite the consequences.",
+      "teaching": "Keeping a promise can require accepting personal sacrifice."
+    },
+    {
+      "id": "asura_15",
+      "deity": "Asura",
+      "title": "Bali and Vamana",
+      "tags": [
+        "humility",
+        "power",
+        "commitment"
+      ],
+      "story": "Bali possessed great authority but ultimately accepted Vamana's claim and surrendered what he had promised.",
+      "teaching": "True character can be revealed when a powerful person accepts the consequences of a promise."
+    },
+    {
+      "id": "asura_16",
+      "deity": "Asura",
+      "title": "Andhaka's desire",
+      "tags": [
+        "desire",
+        "attachment",
+        "conflict"
+      ],
+      "story": "Andhaka's desire and attachment led him into conflict with Shiva and the forces protecting Parvati.",
+      "teaching": "Uncontrolled desire can distort judgment and create destructive conflict."
+    },
+    {
+      "id": "asura_17",
+      "deity": "Asura",
+      "title": "Tripurasura's cities",
+      "tags": [
+        "power",
+        "wealth",
+        "arrogance"
+      ],
+      "story": "The three sons of Tarakasura built powerful cities and became formidable forces whose growing power threatened the balance of the worlds.",
+      "teaching": "Accumulated power becomes dangerous when it is used without restraint."
+    },
+    {
+      "id": "asura_18",
+      "deity": "Asura",
+      "title": "Tarakasura's boon",
+      "tags": [
+        "ambition",
+        "strategy",
+        "power"
+      ],
+      "story": "Tarakasura sought protection through austerities and used the resulting power to challenge the gods.",
+      "teaching": "Strategic pursuit of power can become destructive when its purpose is domination."
+    },
+    {
+      "id": "asura_19",
+      "deity": "Asura",
+      "title": "Shumbha's demand",
+      "tags": [
+        "pride",
+        "possession",
+        "desire"
+      ],
+      "story": "Shumbha sought to possess the divine power represented by Devi and demanded submission rather than accepting her independence.",
+      "teaching": "Treating another being as property turns desire into domination."
+    },
+    {
+      "id": "asura_20",
+      "deity": "Asura",
+      "title": "Nishumbha's attachment",
+      "tags": [
+        "attachment",
+        "ego",
+        "desire"
+      ],
+      "story": "Nishumbha stood beside Shumbha and pursued the same desire for possession and dominance.",
+      "teaching": "Attachment to possession can strengthen ego and make wise judgment difficult."
+    },
+    {
+      "id": "asura_21",
+      "deity": "Asura",
+      "title": "Raktabija's multiplying power",
+      "tags": [
+        "persistence",
+        "power",
+        "consequences"
+      ],
+      "story": "Raktabija possessed a power by which drops of his blood could produce additional forms like himself, making him difficult to defeat.",
+      "teaching": "A problem can multiply when every attempt to confront it creates more of the same problem."
+    },
+    {
+      "id": "asura_22",
+      "deity": "Asura",
+      "title": "Madhu and Kaitabha",
+      "tags": [
+        "strength",
+        "pride",
+        "deception"
+      ],
+      "story": "Madhu and Kaitabha became powerful opponents and challenged the cosmic order before ultimately being defeated through divine strategy.",
+      "teaching": "Strength alone is not enough when opponents can use strategy and circumstance."
+    },
+    {
+      "id": "asura_23",
+      "deity": "Asura",
+      "title": "Duryodhana's jealousy",
+      "tags": [
+        "jealousy",
+        "ambition",
+        "attachment"
+      ],
+      "story": "Duryodhana's jealousy toward the Pandavas influenced his decisions and contributed to escalating conflict.",
+      "teaching": "Jealousy can turn competition into destructive attachment and conflict."
+    },
+    {
+      "id": "asura_24",
+      "deity": "Asura",
+      "title": "Duryodhana refuses compromise",
+      "tags": [
+        "pride",
+        "stubbornness",
+        "conflict"
+      ],
+      "story": "Duryodhana rejected attempts at compromise and remained unwilling to give the Pandavas even a small share of territory.",
+      "teaching": "Pride and unwillingness to compromise can turn disagreement into irreversible conflict."
+    },
+    {
+      "id": "asura_25",
+      "deity": "Asura",
+      "title": "The Asura perspective",
+      "tags": [
+        "desire",
+        "ambition",
+        "self-interest"
+      ],
+      "story": "Across many stories, powerful figures pursue desire, status, protection, wealth, or authority. Their choices reveal how ambition and self-interest can shape moral decisions.",
+      "teaching": "Understanding selfish desire is important because recognizing its influence can prevent it from controlling one's choices."
+    }
+  ]
+}
