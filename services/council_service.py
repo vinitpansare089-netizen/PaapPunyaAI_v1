@@ -5,16 +5,19 @@ class CouncilService:
         llm_service,
         prompt_service,
         retrieval_service,
-        embedding_service
+        embedding_service,
+        brahma_service
     ):
         self.llm_service = llm_service
         self.prompt_service = prompt_service
         self.retrieval_service = retrieval_service
         self.embedding_service = embedding_service
+        self.brahma_service = brahma_service
 
         self.deities = [
             "Krishna",
-            "Shiva"
+            "Shiva",
+            "Asura"
         ]
 
     def conduct_council(self, question):
@@ -46,4 +49,12 @@ class CouncilService:
                 "response": response
             })
 
-        return judgments
+        final_judgment = self.brahma_service.calculate_final_judgment(
+            question,
+            judgments
+        )
+
+        return {
+            "judgments": judgments,
+            "final_judgment": final_judgment
+        }
