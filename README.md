@@ -15,8 +15,9 @@ Mythology-based RAG system using local LLMs.
 ✅ Knowledge Base
 ✅ Embeddings
 ✅ FAISS Retrieval
-🔄 LLM Integration
-🔄 Responces
+✅ LLM Integration
+✅ Responces
+🔄 BRAHMA Aggregate
 
 #Architecture
 Mythology Stories (JSON)
