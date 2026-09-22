@@ -1,128 +1,867 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+
+  color: #e9dfcc;
+
+  background:
+    radial-gradient(
+      circle at 50% -10%,
+      #292016 0%,
+      #100e0b 42%,
+      #080807 100%
+    );
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Georgia, serif;
-  background: #0d0b14;
-  color: #f5f1e8;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(139, 100, 42, 0.08),
+      transparent 40%
+    ),
+    #080807;
+
+  color: #e9dfcc;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 .app {
   min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      rgba(8, 8, 7, 0.88),
+      rgba(8, 8, 7, 0.97)
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.015) 0px,
+      rgba(255,255,255,0.015) 1px,
+      transparent 1px,
+      transparent 4px
+    );
 }
 
-header {
+/* ============================= */
+/* DUST */
+/* ============================= */
+
+.dust {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+
+  background: rgba(202, 166, 93, 0.35);
+
+  pointer-events: none;
+
+  animation: floatDust 12s infinite ease-in-out;
+}
+
+.dust-one {
+  top: 30%;
+  left: 12%;
+}
+
+.dust-two {
+  top: 55%;
+  right: 15%;
+  animation-delay: 4s;
+}
+
+.dust-three {
+  top: 75%;
+  left: 65%;
+  animation-delay: 7s;
+}
+
+@keyframes floatDust {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.7;
+  }
+
+  70% {
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.hero {
   text-align: center;
-  padding: 60px 20px 30px;
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 85px 20px 60px;
 }
 
-header h1 {
+.brand-symbol {
+  font-family: "Cinzel", serif;
+
+  font-size: 42px;
+
+  color: #c7a15a;
+
+  margin-bottom: 25px;
+
+  text-shadow:
+    0 0 25px rgba(199, 161, 90, 0.25);
+}
+
+.eyebrow {
+  font-family: "Cinzel", serif;
+
+  font-size: 11px;
+
+  letter-spacing: 4px;
+
+  color: #9d8458;
+}
+
+.hero h1 {
+  margin: 14px 0 5px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: clamp(48px, 8vw, 88px);
+
+  font-weight: 600;
+
+  letter-spacing: -2px;
+
+  color: #e9dfcc;
+}
+
+.hero h1 span {
+  color: #b8914c;
+}
+
+.hero-title {
   margin: 0;
-  font-size: 48px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 13px;
+
+  letter-spacing: 7px;
+
+  color: #92794d;
 }
 
-header p {
-  margin-top: 10px;
-  font-size: 18px;
-  opacity: 0.7;
+.hero-description {
+  margin-top: 28px;
+
+  color: #8e877b;
+
+  line-height: 1.8;
+
+  font-size: 14px;
+
+  font-weight: 300;
 }
+
+/* ============================= */
+/* MAIN */
+/* ============================= */
 
 main {
-  width: 90%;
-  max-width: 900px;
+  width: min(1200px, calc(100% - 40px));
+
   margin: auto;
 }
 
+/* ============================= */
+/* QUESTION */
+/* ============================= */
+
+.question-section {
+  max-width: 900px;
+
+  margin: 0 auto 90px;
+}
+
+.question-label {
+  margin-bottom: 12px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 11px;
+
+  letter-spacing: 3px;
+
+  color: #a68b58;
+}
+
 .question-box {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  border: 1px solid #332d23;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(40, 34, 24, 0.65),
+      rgba(12, 11, 9, 0.85)
+    );
+
+  box-shadow:
+    0 25px 80px rgba(0,0,0,0.5),
+    inset 0 1px rgba(255,255,255,0.03);
+
+  padding: 22px;
+
+  transition: border 0.3s ease;
 }
 
-textarea {
+.question-box:focus-within {
+  border-color: #70572e;
+}
+
+.question-box textarea {
   width: 100%;
-  min-height: 150px;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid #40394f;
-  background: #17131f;
-  color: white;
-  font-size: 17px;
+
+  min-height: 120px;
+
   resize: vertical;
-}
 
-button {
-  padding: 15px;
   border: none;
-  border-radius: 10px;
-  background: #d6a84f;
-  color: #17120a;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #e9dfcc;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+
+  font-weight: 300;
 }
 
-button:disabled {
-  opacity: 0.5;
+.question-box textarea::placeholder {
+  color: #59544b;
+}
+
+.question-footer {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-top: 15px;
+
+  padding-top: 15px;
+
+  border-top: 1px solid #29251e;
+}
+
+.question-footer span {
+  color: #615b50;
+
+  font-size: 11px;
+}
+
+.question-footer button {
+  border: 1px solid #8b6d38;
+
+  background:
+    linear-gradient(
+      135deg,
+      #8c6c37,
+      #59421f
+    );
+
+  color: #f7eddb;
+
+  padding: 13px 24px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 11px;
+
+  letter-spacing: 1.5px;
+
+  transition: all 0.25s ease;
+}
+
+.question-footer button:hover:not(:disabled) {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 25px rgba(139, 109, 56, 0.25);
+}
+
+.question-footer button:disabled {
+  opacity: 0.35;
+
   cursor: not-allowed;
 }
 
-.council {
-  margin-top: 60px;
+/* ============================= */
+/* COUNCIL */
+/* ============================= */
+
+.council-section {
+  margin-bottom: 100px;
 }
 
-.council h2 {
-  text-align: center;
+.section-heading {
+  display: flex;
+
+  align-items: end;
+
+  gap: 30px;
+
   margin-bottom: 30px;
 }
 
+.section-heading h2 {
+  font-family: "Cinzel", serif;
+
+  font-weight: 500;
+
+  margin: 7px 0 0;
+
+  font-size: 30px;
+}
+
+.council-line {
+  height: 1px;
+
+  flex: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      #403522,
+      transparent
+    );
+
+  margin-bottom: 8px;
+}
+
+.deity-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+
+  align-items: start;
+}
+
+/* ============================= */
+/* DEITY CARD */
+/* ============================= */
+
 .deity-card {
-  margin: 25px 0;
+  min-height: 400px;
+
+  border: 1px solid #2d2922;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(31, 28, 22, 0.88),
+      rgba(10, 10, 9, 0.95)
+    );
+
   padding: 25px;
-  border: 1px solid #40394f;
-  border-radius: 15px;
-  background: #17131f;
-  animation: appear 0.6s ease;
+
+  position: relative;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.35);
+
+  animation: cardAppear 0.7s ease both;
 }
 
-.deity-card h3 {
-  margin-top: 0;
-  font-size: 26px;
+.deity-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #806334,
+      transparent
+    );
 }
 
-.deity-card p {
-  white-space: pre-line;
-  line-height: 1.7;
-}
-
-.brahma-card {
-  margin: 60px 0;
-  padding: 30px;
-  border: 1px solid #8d6c2c;
-  border-radius: 15px;
-  background: #211a0d;
-  animation: appear 0.8s ease;
-}
-
-.brahma-card h2 {
-  text-align: center;
-}
-
-.brahma-card p {
-  white-space: pre-line;
-  line-height: 1.8;
-}
-
-@keyframes appear {
+@keyframes cardAppear {
   from {
     opacity: 0;
-    transform: translateY(20px);
+
+    transform:
+      translateY(25px);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+
+    transform:
+      translateY(0);
+  }
+}
+
+.card-top {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.deity-emblem {
+  width: 55px;
+  height: 55px;
+
+  border: 1px solid #5b4729;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 25px;
+
+  color: #c7a15a;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(167, 130, 61, 0.14),
+      transparent 70%
+    );
+
+  box-shadow:
+    0 0 25px rgba(167, 130, 61, 0.08);
+}
+
+.deity-heading {
+  flex: 1;
+}
+
+.deity-name {
+  font-family: "Cinzel", serif;
+
+  font-size: 20px;
+
+  letter-spacing: 1px;
+
+  color: #d8c8a9;
+}
+
+.deity-subtitle {
+  margin-top: 4px;
+
+  color: #706a60;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+}
+
+.card-status {
+  font-size: 8px;
+
+  letter-spacing: 1.5px;
+
+  color: #766443;
+}
+
+.divider {
+  height: 1px;
+
+  background: #29251f;
+
+  margin: 23px 0;
+}
+
+/* ============================= */
+/* THINKING */
+/* ============================= */
+
+.thinking {
+  min-height: 270px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  gap: 25px;
+}
+
+.thinking-orbit {
+  width: 70px;
+  height: 70px;
+
+  position: relative;
+
+  border: 1px solid #453a29;
+
+  border-radius: 50%;
+
+  animation: rotate 5s linear infinite;
+}
+
+.thinking-orbit::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 12px;
+
+  border: 1px solid #725a32;
+
+  border-radius: 50%;
+}
+
+.thinking-orbit span {
+  position: absolute;
+
+  width: 6px;
+  height: 6px;
+
+  background: #b18a4b;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 12px #b18a4b;
+}
+
+.thinking-orbit span:nth-child(1) {
+  top: -3px;
+  left: 32px;
+}
+
+.thinking-orbit span:nth-child(2) {
+  bottom: 8px;
+  right: 0;
+}
+
+.thinking-orbit span:nth-child(3) {
+  bottom: 8px;
+  left: 0;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.thinking-title {
+  font-family: "Cinzel", serif;
+
+  font-size: 11px;
+
+  letter-spacing: 3px;
+
+  color: #a88a54;
+}
+
+.thinking-subtitle {
+  margin-top: 9px;
+
+  font-size: 11px;
+
+  color: #5e5a52;
+}
+
+/* ============================= */
+/* CONTENT */
+/* ============================= */
+
+.deity-content {
+  animation: fadeContent 0.8s ease;
+}
+
+@keyframes fadeContent {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.wisdom-section {
+  margin-bottom: 25px;
+}
+
+.section-label {
+  display: block;
+
+  margin-bottom: 9px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+
+  color: #806c4b;
+}
+
+.wisdom-section p {
+  margin: 0;
+
+  color: #b5afa4;
+
+  font-size: 13px;
+
+  line-height: 1.75;
+
+  font-weight: 300;
+}
+
+.teaching-box {
+  border-left: 2px solid #806333;
+
+  background:
+    rgba(130, 100, 48, 0.055);
+
+  padding: 16px;
+
+  margin-bottom: 25px;
+}
+
+.teaching-box p {
+  margin: 0;
+
+  color: #d1bd96;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+/* ============================= */
+/* BRAHMA */
+/* ============================= */
+
+.brahma-section {
+  max-width: 900px;
+
+  margin: 0 auto 120px;
+
+  padding: 65px 50px;
+
+  text-align: center;
+
+  border: 1px solid #514329;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(130, 99, 44, 0.12),
+      rgba(10, 9, 8, 0.95) 70%
+    );
+
+  box-shadow:
+    0 30px 100px rgba(0,0,0,0.5);
+
+  position: relative;
+}
+
+.brahma-symbol {
+  font-size: 36px;
+
+  color: #c9a35d;
+
+  margin-bottom: 20px;
+
+  text-shadow:
+    0 0 35px rgba(201,163,93,0.25);
+}
+
+.brahma-section h2 {
+  margin: 10px 0;
+
+  font-family: "Cinzel", serif;
+
+  font-size: 32px;
+
+  font-weight: 500;
+}
+
+.brahma-divider {
+  width: 100px;
+
+  height: 1px;
+
+  background: #856a3a;
+
+  margin: 25px auto;
+}
+
+.brahma-content {
+  max-width: 700px;
+
+  margin: auto;
+
+  white-space: pre-line;
+
+  color: #aaa398;
+
+  font-size: 13px;
+
+  line-height: 1.9;
+
+  font-weight: 300;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+  border-top: 1px solid #1d1b17;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 25px 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #4f4b43;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 900px) {
+
+  .deity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .deity-card {
+    min-height: auto;
+  }
+
+  .section-heading {
+    align-items: start;
+  }
+
+  .council-line {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .hero {
+    padding-top: 55px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero-title {
+    letter-spacing: 4px;
+  }
+
+  main {
+    width: min(100% - 24px, 1200px);
+  }
+
+  .question-footer {
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 15px;
+  }
+
+  .question-footer button {
+    width: 100%;
+  }
+
+  .brahma-section {
+    padding: 45px 22px;
+  }
+
+  footer {
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-align: center;
   }
 }
